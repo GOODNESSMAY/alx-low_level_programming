@@ -3,7 +3,7 @@
 
 /**
 * main - Goodness is the best
-* Return - please retun 0
+* Return: - please retun 0
 */
 
 	int main(void)
