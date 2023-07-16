@@ -11,13 +11,17 @@ int g;
 for (g = 0; g < 10; g++)
 
 {
-printf("%i", g);
+putchar(g + '0');
 if (g < 9)
-printf(",");
-printf(" ");
+
+{
+putchar(',');
+putchar(' ');
 }
 
-printf("\n");
+}
+
+putchar('\n');
 
 return (0);
 }
