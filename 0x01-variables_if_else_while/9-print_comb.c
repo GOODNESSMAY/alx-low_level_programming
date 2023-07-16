@@ -14,6 +14,7 @@ for (g = 0; g < 10; g++)
 printf("%i", g);
 if (g < 9)
 printf(",");
+printf(" ");
 }
 
 printf("\n");
