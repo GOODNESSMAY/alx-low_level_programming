@@ -2,17 +2,15 @@
 #include <stdlib.h>
 
 /**
-
-* create_array - create array of size size and assign char c
+* create_array - create an array and assign char c
 * @size: size of array
-* @c: char to assign
-* Description: creat array of size size and assign char c
+* @c: char
+* Description: creating an array then assign a character c
 * Return: pointer to array, NULL if fail
 *
 */
 
 char *create_array(unsigned int size, char c)
-
 {
 
 	char *str;
@@ -20,9 +18,8 @@ char *create_array(unsigned int size, char c)
 	unsigned int m;
 
 	str = malloc(sizeof(char) * size);
-		
-	if (size == 0 || str == NULL)
 
+	if (size == 0 || str == NULL)
 	return (NULL);
 
 	for (m = 0; m < size; m++)
